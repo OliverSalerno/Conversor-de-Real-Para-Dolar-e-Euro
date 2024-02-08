@@ -45,12 +45,12 @@ function changeCurrency() {
 
     if (currencySelect.value == "dolar") {
         currencyName.innerHTML = "Dólar Americano"
-        currencyImg.src = "./img/estados-unidos (1) 1.png"
+        currencyImg.src = "./assets/img/estados-unidos (1) 1.png"
     }
 
     if (currencySelect.value == "euro") {
         currencyName.innerHTML = "Euro"
-        currencyImg.src = "./img/euro.png"
+        currencyImg.src = "./assets/img/euro.png"
     }
     convertValues()
 }
