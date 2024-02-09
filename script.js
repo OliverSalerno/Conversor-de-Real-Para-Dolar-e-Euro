@@ -7,8 +7,8 @@ function convertValues() {
     const currencyValueConverted = document.querySelector(".currency-value")
 
     console.log(currencySelect.value);
-    const dollarToday = 4.97
-    const euroToday = 5.36
+    const dollarToday = 4.99
+    const euroToday = 5.38
 
     if (currencySelect.value == "dolar") {
         currencyValueConverted.innerHTML = new Intl.NumberFormat("en-US", {
